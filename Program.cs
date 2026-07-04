@@ -1,11 +1,5 @@
-﻿using cSharp_withMrMike.front11;
+﻿using cSharp_withMrMike.findLowestIndex;
 
-int[] no = [1,7];
-int[] no2 = [];
+int[] number  = [1, 3, 5];
 
-int[] results = Front11.front1(no,no2);
-
-foreach(int result in results)
-{
-    Console.Write(result + " ");
-}
+Console.WriteLine(FindLowestIndex.findLowest(number));
