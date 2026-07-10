@@ -1,5 +1,5 @@
-﻿using cSharp_withMrMike.findLowestIndex;
+﻿using cSharp_withMrMike.either24;
 
-int[] number  = [1, 3, 5];
+int[] no =[2,2,3,4];
 
-Console.WriteLine(FindLowestIndex.findLowest(number));
+Console.WriteLine(Either24.either2(no));
