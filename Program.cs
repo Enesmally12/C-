@@ -1,5 +1,2 @@
-﻿using cSharp_withMrMike.either24;
+﻿using cSharp_withMrMike.has77;
 
-int[] no =[2,2,3,4];
-
-Console.WriteLine(Either24.either2(no));
