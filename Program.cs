@@ -1,6 +1,6 @@
 ﻿using cSharp_withMrMike.String;
 
 
-string word = "edited";
+string word = "e";
 
-Console.WriteLine(FrontAgain.frontA(word));
+Console.WriteLine(ExtraEnd.extraEnd(word));
