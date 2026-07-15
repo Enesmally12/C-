@@ -1,10 +1,6 @@
-﻿using cSharp_withMrMike.seeColor;
+﻿using cSharp_withMrMike.String;
 
 
-string word = "redxx";
-string word2 = "xxred";
-string word3 = "blueTimes";
+string word = "edited";
 
-Console.WriteLine(SeeColor.color(word));
-Console.WriteLine(SeeColor.color(word2));
-Console.WriteLine(SeeColor.color(word3));
+Console.WriteLine(FrontAgain.frontA(word));
