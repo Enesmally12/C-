@@ -1,7 +1,10 @@
-﻿using cSharp_withMrMike.String;
+﻿using cSharp_withMrMike.seeColor;
 
 
-bool isResult = true;
-string word = "Hello";
+string word = "redxx";
+string word2 = "xxred";
+string word3 = "blueTimes";
 
-Console.WriteLine(TheEnd.Endwith(word, isResult));
+Console.WriteLine(SeeColor.color(word));
+Console.WriteLine(SeeColor.color(word2));
+Console.WriteLine(SeeColor.color(word3));
