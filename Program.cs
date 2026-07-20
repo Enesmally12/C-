@@ -1,8 +1,7 @@
 ﻿using cSharp_withMrMike.String;
 
 
-string word1 = "java";
-string word2 = "Naeweew2";
+string word1 = "Hsasd";
 
 
-Console.WriteLine(ComboS.comboS(word1,word2));
+Console.WriteLine(AtFirst.atFirst(word1));
