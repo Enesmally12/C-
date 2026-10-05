@@ -32,12 +32,18 @@
 //     Console.WriteLine(result);
 // }
 
-Wallet opay = new(0);
+Paymentprocess paymentProcess = new CardPayment();
 
-Console.WriteLine(opay.Balance);
+Paymentprocess paymentProcess2 = new BankTransfer();
 
-opay.Deposit(34000);
-Console.WriteLine();
-Console.WriteLine(opay.Balance);
+Paymentprocess paymentProcess3 = new CryptoPayment();
 
-opay.Withdraw(20000);
+paymentProcess.PaymentMethod(30000);
+
+Console.WriteLine("  ");
+
+paymentProcess2.PaymentMethod(22000);
+
+Console.WriteLine(" ");
+
+paymentProcess3.PaymentMethod(40000);
