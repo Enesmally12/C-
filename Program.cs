@@ -32,18 +32,14 @@
 //     Console.WriteLine(result);
 // }
 
-Paymentprocess paymentProcess = new CardPayment();
+Employee PermanentEmployee = new PermanetEmployee(1, "David", 150000, 50000, 15000);
 
-Paymentprocess paymentProcess2 = new BankTransfer();
+Employee ContractEmployee = new ContractEmployee(2, "John", 150000, 30000);
 
-Paymentprocess paymentProcess3 = new CryptoPayment();
+Employee InterEmployee = new Intern(3, "Deinma", 15000, "6 Months");
 
-paymentProcess.PaymentMethod(30000);
-
-Console.WriteLine("  ");
-
-paymentProcess2.PaymentMethod(22000);
-
-Console.WriteLine(" ");
-
-paymentProcess3.PaymentMethod(40000);
+Console.WriteLine($"Permanet Employee Salary is:{PermanentEmployee.calculateSalary()}");
+ Console.WriteLine("");
+Console.WriteLine($"Contract Employee Salary is:{ContractEmployee.calculateSalary()}");
+ Console.WriteLine("");
+Console.WriteLine($"Intern Salary is:{InterEmployee.calculateSalary()}");
