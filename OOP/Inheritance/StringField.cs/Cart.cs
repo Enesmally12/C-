@@ -14,7 +14,7 @@ public class Cart : Product, IOrder
     private Guid orderID;
     private DateTime orderDate;
 
-    public Cart(string productName,decimal unitPrice,int quantity,string name,long customerID,string email) : base(productName, unitPrice, quantity)
+    public Cart(List <string>  productName,decimal unitPrice,int quantity,string name,long customerID,string email) : base(productName, unitPrice, quantity)
     {
         Name = name;
         CustomerID = customerID;
